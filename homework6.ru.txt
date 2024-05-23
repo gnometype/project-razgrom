@@ -1,0 +1,5 @@
+s=str(input('Введите текст:'))
+cat1=str('кот')
+cat2=str('КОТ')
+cat3=str('Кот')
+print('Слово "кот" встречается в тексте',s.count(cat1)+s.count(cat2)+s.count(cat3),'раз')

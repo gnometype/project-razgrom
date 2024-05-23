@@ -1,0 +1,17 @@
+x=int(0)
+y=int(1)
+n=int(input("Введите номер числа в последовательности Фибоначчи"))
+if (n<1):
+    print("Ошибка. Введите натуральное число.")
+else:
+    for i in range(1,n,1):
+        if(i%2==1):
+            x=x+y
+            continue
+        else:
+            y=x+y
+            continue
+    if(n%2==1):
+        print("число Фибоначчи:",x)
+    else:
+        print("число Фибоначчи:",y)

@@ -1,0 +1,9 @@
+s=str(input())
+t=str
+if (s=='save'):
+    t='сохранить'
+elif(s=='load'):
+    t='загрузить'
+else:
+    t='неизвестная операция'
+print(t)

@@ -1,0 +1,18 @@
+a=[0,0,0,0,0]
+print('Введите 5 целых чисел')
+for i in range(5):
+    a[i]=int(input())
+b=[0,0,0,0,0]
+print('Введите 5 строк')
+for i in range(5):
+    b[i]=str(input())
+c=[0,0,0,0,0]
+print('Введите 5 булевых значений (True или False)')
+for i in range(5):
+    c[i]=bool(input())
+list1=[a,b,c]
+print('Список до обработки:',list1)
+list2=[]
+for i in range(len(list1)):
+    list2.extend(list1[i])
+print('Список после обработки:',list2)
